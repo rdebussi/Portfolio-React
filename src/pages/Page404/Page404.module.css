@@ -1,0 +1,19 @@
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}   
+
+.texto_grande {
+    font-size: 300px;
+    color: var(--red);
+    font-weight: bold;
+    font-family: arial;
+}
+
+.texto_red {
+    font-size: 2rem;
+    font-weight: bold;
+}
