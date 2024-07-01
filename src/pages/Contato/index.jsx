@@ -10,8 +10,6 @@ import { FaWhatsapp, FaGithub, FaLinkedin  } from "react-icons/fa";
 function Contato() {
     return (
         <>
-            <Header />
-            <Container>
                 <section className={styles.contatos}>
                     <figure className={styles.photo}>
                         <img src="/dev_focus.svg" alt="" />
@@ -38,8 +36,6 @@ function Contato() {
                         
                     </div>
                 </section>
-            </Container>
-            <Footer />
         </>
     )
 }
