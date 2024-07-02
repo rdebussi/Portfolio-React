@@ -1,5 +1,5 @@
 import styles from './Sobre.module.css'
-import avatar from './images/profile.webp'
+import avatar from './images/profile.jpeg'
 import js from './images/js.svg'
 import react from './images/react.svg'
 import node from './images/node.svg'
@@ -21,7 +21,7 @@ function Sobre() {
                 </div>
             </div>
             <div className={styles.techs}>
-                <h3>techs</h3>
+                <h3>tecnologias que uso</h3>
                 <div className={styles.icons}>
                     <img src={js} alt="" />
                     <img src={react} alt="" />

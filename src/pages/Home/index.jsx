@@ -7,16 +7,16 @@ function Home() {
             <section className={styles.home}>
                 <div className={styles.apresentacao}> 
                 <p>
-                    Olá, sou <br/>
+                    Olá, eu sou o<br/>
                     <span>Rafael Debussi</span> <br />
-                    Dev Full Stack
+                    <p className={styles.dev}>Desenvolvedor Full Stack</p>
                 </p>
                 <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
                     Saiba Mais
                 </Link>
                 </div>
                 <figure>
-                    <img className={styles.img_home} src="/dev-red.svg" alt="home image" />
+                    <img className={styles.img_home} src="/dev-red2.svg" alt="home image" />
                 </figure>
             </section>
         </>

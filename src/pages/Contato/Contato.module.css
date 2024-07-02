@@ -10,7 +10,7 @@
 }
 
 .contatos h2 {
-    color: var(--red);
+    color: var(--terceary);
     font-size: 2rem;
 }
 
@@ -32,12 +32,12 @@
 }
 
 .icone {
-    font-size: 5rem;
-    color: var(--primary);
+    font-size: 4rem;
+    color: white;
 }
 
 .icone:hover {
-    color: var(--red);
+    color: var(--terceary);
     cursor: pointer;
 }
 

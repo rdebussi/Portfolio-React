@@ -5,10 +5,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --primary: #16213E;
-  --secondary: #0F3460;
-  --terceary: #533483;
-  --red: #E94560;
+  /* --primary: #16213E; */
+  --primary: #363b4e;
+  --secondary: #4f3b78;
+  --terceary: #c4bbf0;
+  /* --red: #E94560;  #4f3b78 */
+  --red:  #927fbf;
   --soft-white: #f1f1f1;
   --white: #fefefe;
   --black: #111;

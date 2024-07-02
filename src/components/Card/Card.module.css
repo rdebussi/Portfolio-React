@@ -4,25 +4,24 @@
     background-color: var(--soft-white);
     color: var(--gray);
     border-radius: 8px;
-    box-shadow: 5px 5px 10px #22222270;
+    box-shadow: 5px 5px 10px #68686870;
     display: flex;
-    padding: 5px;
     flex-direction: column;
     box-sizing: border-box;
 }
 
 .card h2 {
     text-align: center;
-    color: var(--primary);
+    color: black;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
 
 .card_page {
-    width: 295px;
+    width: 300px;
     height: 200px;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 .card_footer {
@@ -30,20 +29,21 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding-inline: 5px;
 }
 
 .card_icones {
     display: flex;
     gap: .25rem;
     font-size: 1.5rem;
-    color: var(--red)
+    color: var(--secondary);
 }
 
 .card_button {
     width: 2.25rem;
     height: 2.25rem;
     border: 0;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: white;
     border-radius: .5rem;
     text-align: center;
@@ -55,6 +55,6 @@
 }
 
 .card_button:hover {
-    background-color: var(--red);
+    background-color: #2a1457;
     transition: all .5s;
 }

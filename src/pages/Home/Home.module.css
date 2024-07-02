@@ -14,14 +14,19 @@
 }
 
 .home p {
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 6rem;
+    color: white;
 }
 
 .home span{
-    font-size: 4rem;
-    color: var(--red);
+    font-size: 3.75rem;
+     color: var(--red); 
     font-weight: 600;
+}
+
+.dev {
+    color: #c9c9c9;
 }
 
 .btn {
@@ -40,10 +45,15 @@
 }
 
 .btn_red {
-    background-color: var(--red);
+    background-color: rgb(26, 26, 26);
     color: var(--white);
+    border: 2px solid var(--red);
 }
 
 .btn_red:hover {
-    background-color: var(--primary);
+    background-color: var(--red);
+    border: 2px solid var(--red);
+    transform: scale(1.03);
+    transition: ease-in-out .1s;
+
 }

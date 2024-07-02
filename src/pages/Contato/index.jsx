@@ -1,6 +1,3 @@
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
-import Container from "../../components/Container"
 import styles from './Contato.module.css'
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp, FaGithub, FaLinkedin  } from "react-icons/fa";
@@ -12,7 +9,7 @@ function Contato() {
         <>
                 <section className={styles.contatos}>
                     <figure className={styles.photo}>
-                        <img src="/dev_focus.svg" alt="" />
+                        <img src="/dev_focus3.svg" alt="" />
                     </figure>
                     <h2>Entre em contato</h2>
                     <div className={styles.icones}>

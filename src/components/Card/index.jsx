@@ -3,6 +3,7 @@ import fox_page from '/fox_page.png'
 import { FaReact, FaHtml5, FaCss3Alt  } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 
@@ -18,9 +19,11 @@ function Card () {
                     <IoLogoJavascript/>
                     <FaReact/>
                 </div>
+                <Link target='blank' to='https://foxfilms-dun.vercel.app'>
                 <button className={styles.card_button}>
                     <FaArrowRight/>
                 </button>
+                </Link>
             </div>
         </section>
     )
